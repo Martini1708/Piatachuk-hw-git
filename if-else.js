@@ -2,27 +2,25 @@
 let burger = 0;
 let potatoe = 2;
 
-if(burger === 3 && potatoe ===  1){
+if(burger === 4 && potatoe ===  1){
     console.log('All are done')
 }else {
     console.log('We go to another place')
 }
 
 ///////// (2)
-let price1 = 900;
-let price2 = 1899;
+let price2 = 1999;
 
-if(price1 >= 1000 && price2 <= 1900){
+if(price2 >= 1000 && price2 <= 1900){
     console.log('Range')
 }else {
     console.log('Not in range')
 }
 
 /////// (3)
-let price4 = 999;
-let price5 = 1901;
+let price3 = 999;
 
-if(price4 >= 1000 && price5 <=  1900){
+if(price3 >= 1000 && price3 <=  1900){
     console.log('Item is not in range')
 }else {
     console.log('Item is in range')
